@@ -1,4 +1,4 @@
-let l = 0, r = 10**6+1, cnt = 1;
+let l = 0, r = 10**6+1, cnt =1;
 document.getElementById("dv").style.height = window.innerHeight-100+"px";
 document.getElementById("dv").style.width = window.innerWidth+"px";
 
