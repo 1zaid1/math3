@@ -8,18 +8,18 @@ function change(d, s) {
 
 function reset() {
     l = 0, r = 10**6+1, cnt = 0;
-    change("guess", String(Math.floor((l+r)/2))+"?");
+    change("guess", "هل هو" + String(Math.floor((l+r)/2)) + "؟");
     change("count", "عدد التخمينات: " + String(++cnt));
 }
 
 function up() {
     l = Math.floor((l+r)/2);
-    change("guess", String(Math.floor((l+r)/2))+"?");
+    change("guess", "هل هو" + String(Math.floor((l+r)/2)) + "؟");
     change("count", "عدد التخمينات: " + String(++cnt));
 }
 
 function down() {
     r = Math.floor((l+r)/2);
-    change("guess", String(Math.floor((l+r)/2))+"?");
+    change("guess", "هل هو" + String(Math.floor((l+r)/2)) + "؟");
     change("count", "عدد التخمينات: " + String(++cnt));
 }
