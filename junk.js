@@ -1,11 +1,12 @@
-let l = 1, r = 10**6, cnt = 0;
+let l = 0, r = 10**6+1, cnt = 0;
+document.getElementById("dv").style.height = window.innerHeight-100+"px";
 
 function change(d, s) {
     document.getElementById(d).innerHTML = s;
 }
 
 function reset() {
-    l = 1, r = 10**6, cnt = 0;
+    l = 0, r = 10**6+1, cnt = 0;
     change("guess", String(Math.floor((l+r)/2))+"?");
     change("count", String(cnt));
 }
