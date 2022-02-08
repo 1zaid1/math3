@@ -9,20 +9,30 @@
           div {
               display: inline-block;
               width: 100%;
-              height: 100%;
               vertical-align: middle;
               text-align: center;
               border: 3px dashed #1c87c9;
           }
+
+          h1 {
+              font-size: 300%;
+          }
+
+          button {
+              height: 100px;
+              width: 150px;
+              font-size: 50px;
+              font-weight: bold;
+          }
         </style>
-        <script src = "junk.js"></script>
         <h1 style="text-align:center;">خوارزمية البحث الثنائي</h1>
-        <div>
+        <div id = "dv">
             <h1 id = "guess">500000?</h1>
             <h1 id = "count">عدد المحاولات: 0</h1>
             <button onclick = "down()" class = "btn btn-success">كبير جداً</button>
             <button onclick = "reset()" class = "btn btn-warning">ممتاز</button>
             <button onclick = "up()" class = "btn btn-danger">صغير جداً</button>
         </div>
+        <script src = "junk.js"></script>
     </body>
 </html>
