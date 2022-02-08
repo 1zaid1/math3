@@ -11,28 +11,28 @@
               vertical-align: middle;
               width: 100%;
               text-align: center;
-              border: 10px dashed #1c87c9;
+              border: 20px dashed #1c87c9;
           }
 
-          h1 {
+          .hi {
               font-size: 300%;
               vertical-align: middle;
           }
 
-          button {
+          #butt {
               height: 100px;
               width: 150px;
-              font-size: 50px;
+              font-size: 25px;
               font-weight: bold;
           }
         </style>
-        <h1 style="text-align:center;">خوارزمية البحث الثنائي</h1>
+        <h1 style="text-align:center; font-size: 70px;">خوارزمية البحث الثنائي</h1>
         <div id = "dv">
-            <h1 id = "guess">500000?</h1>
-            <h1 id = "count">عدد التخمينات: 1</h1>
-            <button onclick = "down()" class = "btn btn-success">كبير جداً</button>
-            <button onclick = "reset()" class = "btn btn-warning">ممتاز</button>
-            <button onclick = "up()" class = "btn btn-danger">صغير جداً</button>
+            <h1 class = "hi" id = "guess"> هل هو 500000؟</h1>
+            <h1 class = "hi" id = "count">عدد التخمينات: 1</h1>
+            <button id = "butt" onclick = "down()" class = "btn btn-danger">إنه أصغر</button>
+            <button id = "butt" onclick = "reset()" class = "btn btn-warning">!نعم</button>
+            <button id = "butt" onclick = "up()" class = "btn btn-success">إنه أكبر</button>
         </div>
         <script src = "junk.js"></script>
     </body>
